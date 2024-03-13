@@ -1,0 +1,54 @@
+/* h1 {
+    color: pink;
+}
+
+h2 {
+    color:blueviolet
+}
+
+.title-h2 {
+    background-color:chartreuse
+}
+.third {
+    font-size: large;
+}
+#unique-4 {
+    color: black;
+    background-color: yellow;
+} */
+/* --------------------- */
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    color: chartreuse;
+
+}
+
+input {
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    background-color:chartreuse;
+    font-size: 15px;
+    color: red;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 2px solid red;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: blue;
+    transition: 0.2s;
+}
